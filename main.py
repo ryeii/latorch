@@ -1,6 +1,6 @@
-from lexer_ import Lexer
-from parser_ import Parser
-from generator_ import PyTorchCodeGenerator
+from latorch.lexer_ import Lexer
+from latorch.parser_ import Parser
+from latorch.generator_ import PyTorchCodeGenerator
 
 input_string = r"\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} * \sin(\argmax(1, 2))"
 input_string_1 = r"\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} + \begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix}"
