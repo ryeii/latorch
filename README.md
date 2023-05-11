@@ -46,3 +46,113 @@ Output:
 tensor([[6., 7.],
         [8., 9.]])
 ```
+
+2. Matrix multiplication:
+
+Input:
+
+$$
+\begin{bmatrix}
+    1 & 2 \\
+    3 & 4
+\end{bmatrix} *
+\begin{bmatrix}
+    5 & 6 \\
+    7 & 8
+\end{bmatrix}
+$$
+
+```tex
+\begin{bmatrix}
+    1 & 2 \\
+    3 & 4
+\end{bmatrix} *
+\begin{bmatrix}
+    5 & 6 \\
+    7 & 8
+\end{bmatrix}
+```
+
+Output:
+
+```python
+tensor([[19., 22.],
+        [43., 50.]])
+```
+
+3. Matrix and scalar addition:
+
+Input:
+
+$$
+\begin{bmatrix}
+    1 & 2 \\
+    3 & 4
+\end{bmatrix} + 5
+$$
+
+```tex
+\begin{bmatrix}
+    1 & 2 \\
+    3 & 4
+\end{bmatrix} + 5
+```
+
+Output:
+
+```python
+tensor([[6.,  7.],
+        [8.,  9.]])
+```
+
+4. Applying a trigonometric function to a matrix:
+
+Input:
+
+$$
+\cos\left(\begin{bmatrix}
+    1 & 2 \\
+    3 & 4
+\end{bmatrix}\right)
+$$
+
+```tex
+\cos\left(\begin{bmatrix}
+    1 & 2 \\
+    3 & 4
+\end{bmatrix}\right)
+```
+
+Output:
+
+```python
+tensor([[ 0.5403, -0.4161],
+        [-0.9900, -0.6536]])
+```
+
+5. Using argmin with scalar values and applying it to a matrix:
+
+Input:
+
+$$
+\begin{bmatrix}
+    1 & 2 \\
+    3 & 4
+\end{bmatrix} * \sin(\argmin(1, 2))
+$$
+
+```tex
+\begin{bmatrix}
+    1 & 2 \\
+    3 & 4
+\end{bmatrix} * \sin(\argmin(1, 2))
+```
+
+Output:
+
+```python
+tensor([[0., 0.],
+        [0., 0.]])
+```
+
+These examples demonstrate the capability of our LaTeX-to-PyTorch Code Generator to handle basic matrix operations, trigonometric functions, and argmax/argmin functions. The generated PyTorch code for these test cases produces the expected results, validating the effectiveness of our tool for the targeted operations.
