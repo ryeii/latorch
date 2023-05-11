@@ -1,8 +1,4 @@
-title: latorch
-description: Latex to Pytorch translator
-theme: just-the-docs
-
-url: https://ryeii.github.io/latorch
-
-# aux_links: # remove if you don't want this link to appear on your pages
-#   Template Repository: https://github.com/YOUR-USERNAME/YOUR-SITE-NAME
+title: "latorch"
+remote_theme: just-the-docs/just-the-docs
+# color_scheme: "dark"
+# search_enabled: false
