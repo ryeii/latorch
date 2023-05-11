@@ -19,16 +19,30 @@ Here are some examples of LaTeX equations and their corresponding PyTorch code g
 Input:
 
 $$
-\begin{bmatrix} 1 & 2 \ 3 & 4 \end{bmatrix} + \begin{bmatrix} 5 & 6 \ 7 & 8 \end{bmatrix}
+\begin{bmatrix} 
+    1 & 2 \\
+    3 & 4 
+\end{bmatrix} + 
+\begin{bmatrix} 
+    5 & 6 \\
+    7 & 8 
+\end{bmatrix}
 $$
 
-```
-\begin{bmatrix} 1 & 2 \ 3 & 4 \end{bmatrix} + \begin{bmatrix} 5 & 6 \ 7 & 8 \end{bmatrix}
+```tex
+\begin{bmatrix} 
+    1 & 2 \\
+    3 & 4 
+\end{bmatrix} + 
+\begin{bmatrix} 
+    5 & 6 \\
+    7 & 8 
+\end{bmatrix}
 ```
 
 Output: 
 
-```
+```python
 tensor([[6., 7.],
         [8., 9.]])
 ```
