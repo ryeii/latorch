@@ -154,5 +154,3 @@ Output:
 tensor([[0., 0.],
         [0., 0.]])
 ```
-
-These examples demonstrate the capability of our LaTeX-to-PyTorch Code Generator to handle basic matrix operations, trigonometric functions, and argmax/argmin functions. The generated PyTorch code for these test cases produces the expected results, validating the effectiveness of our tool for the targeted operations.
