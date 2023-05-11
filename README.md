@@ -43,8 +43,8 @@ $$
 Output: 
 
 ```python
-tensor([[6., 7.],
-        [8., 9.]])
+tensor([[ 6.,  8.],
+        [10., 12.]])
 ```
 
 2. Matrix multiplication:
