@@ -1,5 +1,7 @@
 # latorch - Latex to Pytorch Translator
 
+Welcome to the Latex to Pytorch Translator! This tool allows you to evaluate equations in Latex with Pytorch.
+
 $$
 \begin{bmatrix} \cos(0) & 2 & 3 \\ 4 & \argmax(\sin(0.5), \cos(0.5)) & 6 \end{bmatrix} * \begin{bmatrix} 7 & 8 \\ 9 & 10 \\ 11 & 12 \end{bmatrix} * \sin(\argmin(2, 1))
 $$
@@ -8,8 +10,6 @@ $$
 tensor([[48.8053, 53.8541],
         [86.6715, 95.9277]])
 ```
-
-Welcome to the Latex to Pytorch Translator! This tool allows you to evaluate equations in Latex with Pytorch.
 
 ## Supported Operations
 
